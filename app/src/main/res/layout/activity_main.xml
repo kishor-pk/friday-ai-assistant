@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#050A14">
+
+    <TextView
+        android:text="F·R·I·D·A·Y"
+        android:textSize="36sp"
+        android:textColor="#00E5FF"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Female Replacement Intelligent Digital Assistant Youth"
+        android:textSize="10sp"
+        android:textColor="#2A4A6A"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvState"
+        android:text="Tap mic or say Hey Friday"
+        android:textSize="15sp"
+        android:textColor="#4A8FA8"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#E0F4FF"
+        android:gravity="center"
+        android:minHeight="120dp"
+        android:layout_marginBottom="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageButton
+        android:id="@+id/btnMic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:background="@drawable/mic_button_bg"
+        android:padding="20dp"
+        android:contentDescription="Tap to speak"/>
+
+</LinearLayout>
